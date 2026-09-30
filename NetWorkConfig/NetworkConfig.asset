@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: NetworkConfig
+  m_EditorClassIdentifier: UnityNetworkToolkit:Common.Networking:NetworkConfigAsset
+  config:
+    host: 127.0.0.1
+    tcpPort: 9000
+    udpPort: 9001
+    udpLocalPort: 0
+    tcpFrameProtocol: 0
+    messageDelimiter: '
+
+'
+    maxMessageSize: 1048576
+    receiveBufferSize: 16384
+    sendBufferSize: 16384
+    connectTimeoutMs: 5000
+    receivePollTimeoutMs: 100
+    autoReconnect: 1
+    reconnectIntervalMs: 2000
+    maxReconnectAttempts: 5
+    noDelay: 1
+    keepAlive: 1
+    useTls: 0
+    tlsServerName: 
+    allowInvalidTlsCertificate: 0
+    serialPortName: COM3
+    serialBaudRate: 115200
+    serialDataBits: 8
+    serialStopBits: 1
+    serialParity: 0
+    serialDtrEnable: 0
+    serialRtsEnable: 0
+    udpEnableBroadcast: 0
+    webSocketUrl: ws://127.0.0.1:9002
+    webSocketSubProtocol: 
+    webSocketConnectTimeoutMs: 5000
